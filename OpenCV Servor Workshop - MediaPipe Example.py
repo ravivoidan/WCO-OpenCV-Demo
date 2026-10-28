@@ -3,8 +3,8 @@ import cv2
 import mediapipe as mp 
 import serial   
 
-#cap = cv2.VideoCapture(0)
-cap  = cv2.VideoCapture(r"C:\Users\Idan Ravivo\Desktop\WCO OpenCV WS\handMoving.mp4")
+cap = cv2.VideoCapture(0)
+#cap  = cv2.VideoCapture(r"C:\Users\Idan Ravivo\Desktop\WCO OpenCV WS\handMoving.mp4")
 
 
 mp_hands = mp.solutions.hands #access handtracking lib
